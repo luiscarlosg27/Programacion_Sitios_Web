@@ -51,7 +51,7 @@
       <br>
       <div class="container">
         <form>
-          <p class="h4 text-center">Actualización de Productos</p>
+          <p class="h4 text-center">Eliminar Productos</p>
           
           <br><br>
           <div class="form-row">
@@ -83,15 +83,21 @@
           <div class="form-row">
             <div class="form-group col-md-6">
               <label for="preciocompra">Precio de Compra</label>
-              <input type="text" class="form-control" id="preciocompra" name="preciocompra"> 
+              <fieldset disabled="disabled">
+                <input type="text" class="form-control" id="preciocompra" name="preciocompra">
+              </fieldset>
+               
             </div>
             <div class="form-group col-md-6">
               <label for="cantidadcomprada">Cantidad Comprada</label>
-              <input type="text" class="form-control" id="cantidadcomprada" name="cantidadcomprada">
+              <fieldset disabled="disabled">
+                <input type="text" class="form-control" id="cantidadcomprada" name="cantidadcomprada">
+              </fieldset>
+              
             </div>
           </div>
           <div class="mx-auto" style="width: 200px;">
-            &emsp;&emsp;&emsp;&ensp;<input type="button" class="btn btn-success"value="Actualizar" onclick=""></button>
+            &emsp;&emsp;&emsp;&ensp;<input type="button" class="btn btn-success"value="Eliminar" onclick=""></button>
           </div>
           
         </form>
